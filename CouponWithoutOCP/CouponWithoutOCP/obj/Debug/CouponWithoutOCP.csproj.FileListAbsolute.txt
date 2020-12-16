@@ -1,0 +1,7 @@
+D:\Pemprograman Lanjut\CouponWithoutOCP\CouponWithoutOCP\obj\Debug\CouponWithoutOCP.csprojAssemblyReference.cache
+D:\Pemprograman Lanjut\CouponWithoutOCP\CouponWithoutOCP\obj\Debug\CouponWithoutOCP.csproj.CoreCompileInputs.cache
+D:\Pemprograman Lanjut\CouponWithoutOCP\CouponWithoutOCP\bin\Debug\CouponWithoutOCP.exe.config
+D:\Pemprograman Lanjut\CouponWithoutOCP\CouponWithoutOCP\bin\Debug\CouponWithoutOCP.exe
+D:\Pemprograman Lanjut\CouponWithoutOCP\CouponWithoutOCP\bin\Debug\CouponWithoutOCP.pdb
+D:\Pemprograman Lanjut\CouponWithoutOCP\CouponWithoutOCP\obj\Debug\CouponWithoutOCP.exe
+D:\Pemprograman Lanjut\CouponWithoutOCP\CouponWithoutOCP\obj\Debug\CouponWithoutOCP.pdb

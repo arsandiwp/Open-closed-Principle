@@ -1,0 +1,7 @@
+D:\Pemprograman Lanjut\CouponWithOCP\CouponWithOCP\bin\Debug\CouponWithOCP.exe.config
+D:\Pemprograman Lanjut\CouponWithOCP\CouponWithOCP\bin\Debug\CouponWithOCP.exe
+D:\Pemprograman Lanjut\CouponWithOCP\CouponWithOCP\bin\Debug\CouponWithOCP.pdb
+D:\Pemprograman Lanjut\CouponWithOCP\CouponWithOCP\obj\Debug\CouponWithOCP.csprojAssemblyReference.cache
+D:\Pemprograman Lanjut\CouponWithOCP\CouponWithOCP\obj\Debug\CouponWithOCP.csproj.CoreCompileInputs.cache
+D:\Pemprograman Lanjut\CouponWithOCP\CouponWithOCP\obj\Debug\CouponWithOCP.exe
+D:\Pemprograman Lanjut\CouponWithOCP\CouponWithOCP\obj\Debug\CouponWithOCP.pdb
