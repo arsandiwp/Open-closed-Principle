@@ -1,16 +1,16 @@
-Open Closed Principle
+﻿# Open Closed Principle
 Sebagai gambaran yang jelas tentang apa yang di maksud dengan OCP. Setiap entitas software, baik itu (Class, module, fungsi) terbuka untuk perluasan, namun tertutup untuk modifikasi.
 
-Purpose
+# Purpose
 Open-Closed Principle : Open for extention, closed for modification. Terbuka untuk perluasan, tertutup untuk modifikasi. Dengan tertutupnya code yang sudah ada dari modifikasi maka kemungkinan terjadinya gelombang bug karena kita melakukan suatu perubahan terhadap code yang sudah ada pun dapat dihindari.
-
-About Program
-Pada Source Code ini terdapat 2 program, yakni CouponWithOCP dan CouponWithoutOCP.
-Pada bagian Coupon With OCP, karena menggunakan Abstraction kita dapat mengubah object menjadi object lain tanpa harus meninggalkan fungsi sesungguhnya.
-Sedangkan pada bagian CouponWithoutOCP, jika kalian mengubah salah satu fungsi maka akan memengaruhi fungsi lain.
-Program ini berjalan pada console, sehingga jalankan dengan Run Without Debug.
-COUPON WITHOUTOCP
-Class Coupon
+# About Program
+- Pada Source Code ini terdapat 2 program, yakni CouponWithOCP dan CouponWithoutOCP.
+- Pada bagian Coupon With OCP, karena menggunakan Abstraction kita dapat mengubah object menjadi object lain tanpa harus meninggalkan fungsi sesungguhnya.
+- Sedangkan pada bagian CouponWithoutOCP, jika kalian mengubah salah satu fungsi maka akan memengaruhi fungsi lain.
+- Program ini berjalan pada console, sehingga jalankan dengan Run Without Debug.
+# COUPON WITHOUTOCP
+- Class Coupon
+```csharp
     {
         public double discNominal = 0;
         public double priceNett(double originPrice)
@@ -20,7 +20,9 @@ Class Coupon
             return net;
         }
     }
-Class Program
+```
+- Class Program
+```cshrap
 {
       static void Main(string[] args)
       {
@@ -31,13 +33,17 @@ Class Program
           Console.WriteLine(coupon1.priceNett(10000));
       }
   }
-COUPON WITHOCP
-Class Coupon.cs
+```
+# COUPON WITHOCP
+- Class Coupon.cs
+```cshrap
 public abstract class Coupon
   {
       public abstract double calculate(double originPrice);
   }
-Class CouponWithNominal.cs
+```
+- Class CouponWithNominal.cs
+```csharp
 class CouponWithNominal : Coupon
     {
         public double discNominal;
@@ -52,7 +58,9 @@ class CouponWithNominal : Coupon
             return originPrice - discNominal;
         }
     }
-Class Program.cs
+```
+- Class Program.cs
+```csharp
 class Program
     {
         static void Main(string[] args)
@@ -62,3 +70,4 @@ class Program
             Console.WriteLine(coupon1.calculate(10000));
         }
     }
+```
